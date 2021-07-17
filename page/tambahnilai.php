@@ -46,7 +46,7 @@
             while ($data = $execute->fetch_array(MYSQLI_ASSOC)) {
                 echo "<div class=\"group-input\">";
                 echo "<label for=\"nilai\">$data[namaKriteria]</label>";
-                echo "<input type='hidden' value=$data[id_kriteria] name='kriteria[]'>";
+                echo "<input type ='hidden' value=$data[id_kriteria] name='kriteria[]'>";
                 echo "<select class=\"form-custom\" required name=\"nilai[]\" id=\"nilai\">";
                 echo "<option disabled selected>-- Pilih $data[namaKriteria] --</option>";
                 $query2 = "SELECT id_nilaikriteria,keterangan FROM nilai_kriteria WHERE id_kriteria='$data[id_kriteria]'";
@@ -62,6 +62,7 @@
             }
         }
         ?>
+        <a href="./?page=datareal">lihat data real</a>
     </div>
     <div class="panel-bottom">
         <button type="submit" id="buttonsimpan" class="btn btn-green"><i class="fa fa-save"></i> Simpan</button>

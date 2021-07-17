@@ -30,7 +30,7 @@
                 echo "<div class=\"group-input\">
                         <label for=\"$data[namaKriteria]\">$data[namaKriteria] :</label>
                         <input type='hidden' value=$data[id_kriteria] name='kriteria[]'>
-                            <input class=\"form-custom\" type=\"Number\" name=\"datareal[]\" id=\"$data[namaKriteria]\" placeholder=\"$data[namaKriteria]\">";
+                            <input class=\"form-custom\" required type=\"Number\" name=\"datareal[]\" id=\"$data[namaKriteria]\" placeholder=\"$data[namaKriteria]\">";
                 echo "</input>
                       </div>
                 ";
