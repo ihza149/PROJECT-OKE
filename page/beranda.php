@@ -13,7 +13,7 @@
     <div class="panel-middle text-center">
         <h1>
             Selamat Datang, <span class="text-green">Administrator</span><br>
-            di Sistem Pendukung Keputusn pemilihan desa rawan pangan per-kecamatan di kabupaten Bondowoso berbasis web menggunakan metode <span class="text-green">Simple Additive Weighting</span>
+            di Sistem Pendukung Keputusn pemilihan desa rawan pangan per-kecamatan di kabupaten Bondowoso
         </h1>
     </div>
     <div class="panel-bottom"></div>
