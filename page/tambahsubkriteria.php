@@ -23,7 +23,7 @@
         </div>
         <div class="group-input">
             <label for="Nilai">Nilai :</label>
-            <input type="number" class="form-custom" required autocomplete="off" placeholder="Nilai" id="Nilai" name="nilai">
+            <input type="text" class="form-custom" required autocomplete="off" placeholder="Nilai" id="Nilai" name="nilai">
         </div>
         <div class="group-input">
             <label for="keterangan">Keterangan :</label>
