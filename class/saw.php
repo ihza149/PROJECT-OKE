@@ -1,11 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: dimas
- * Date: 23/06/2018
- * Time: 10:50
- */
 class saw
 {
 
