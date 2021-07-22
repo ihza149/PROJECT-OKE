@@ -48,7 +48,7 @@ if ($execute2->num_rows == 0) {
         $execute2 = $konek->query($querylihat);
         while ($data = $execute2->fetch_array(MYSQLI_ASSOC)) {
             echo "<div class=\"group-input\">
-                    <label for=\"$data[namaKriteria]\">$data[namaKriteria]</label>
+                    <label for=\"$data[namaKriteria]\">$data[namaKriteria]/Ton</label>
                     <input type='hidden' value=\"$data[id_bobotkriteria]\" name=\"id[]\">
                     <select class=\"form-custom\" disabled required name=\"bobot[]\" id=\"$data[namaKriteria]\">";
             if ($data['namaKriteria'] == 'Ketersediaan Pangan') {

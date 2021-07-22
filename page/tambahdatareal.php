@@ -14,7 +14,7 @@
                 $execute = $konek->query($query);
                 if ($execute->num_rows > 0) {
                     while ($data = $execute->fetch_array(MYSQLI_ASSOC)) {
-                        echo "<option value=\"$data[id_supplier]\">$data[namaSupplier]</option>";
+                        echo "<option value=\"$data[id_supplier]\">$data[namaSupplier]/Ton</option>";
                     }
                 } else {
                     echo "<option value=\"\">Belum ada Nama Kecamatan</option>";

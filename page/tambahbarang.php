@@ -7,8 +7,8 @@
         <div class="group-input">
             <label for="barang">Nama Barang :</label>
             <input type="text" class="form-custom" required autocomplete="off" placeholder="Nama Barang" id="barang" name="barang">
-            <label for="jumlah">Jumlah :</label>
-            <input type="number" class="form-custom" required autocomplete="off" placeholder="Jumlah" id="jumlah" name="jumlah">
+            <label for="jumlah">Jumlah/TON :</label>
+            <input type="number" class="form-custom" required autocomplete="off" placeholder="Jumlah/Ton" id="jumlah" name="jumlah">
         </div>
     </div>
     <div class="panel-bottom">
