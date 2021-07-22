@@ -47,6 +47,7 @@
                 </div>
                 <div style="clear: both;"></div>
             </div>
+            <div><?php echo "<i>Data ini diambil dari dataset yang diambil dari jurnal politeknik negeri jember.</i>" ?></div>
             <div class="panel-middle">
                 <div class="table-responsive">
                     <table>

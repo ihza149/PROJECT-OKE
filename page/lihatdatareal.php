@@ -28,7 +28,7 @@ if ($execute2->num_rows == 0) {
         while ($data = $execute2->fetch_array(MYSQLI_ASSOC)) {
 
             echo " <div class=\"group-input\">
-            <label for=\"$data[namaKriteria]\">$data[namaKriteria] :</label>
+            <label for=\"$data[namaKriteria]\">$data[namaKriteria]/Ton :</label>
             <input type='hidden' value=\"$data[id_datareal]\" name=\"id[]\">
             <input type=\"text\" class=\"form-custom\" disabled autocomplete=\"off\" placeholder=\"$data[nilai_real]\" id=\"$data[namaKriteria]\" name=\"nilai[]\">
             </div>";

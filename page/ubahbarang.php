@@ -18,8 +18,8 @@ if ($execute->num_rows > 0) {
         <div class="group-input">
             <label for="barang">Nama Barang :</label>
             <input type="text" value="<?php echo $data['namaBarang']; ?>" class="form-custom" required autocomplete="off" placeholder="Nama Barang" id="barang" name="barang">
-            <label for="jumlah">Jumlah :</label>
-            <input type="number" value="<?php echo $data['jumlah']; ?>" class="form-custom" required autocomplete="off" placeholder="jumlah" id="jumlah" name="jumlah">
+            <label for="jumlah">Jumlah/Ton :</label>
+            <input type="number" value="<?php echo $data['jumlah']; ?>" class="form-custom" required autocomplete="off" placeholder="jumlah/TON" id="jumlah" name="jumlah">
         </div>
     </div>
     <div class="panel-bottom">

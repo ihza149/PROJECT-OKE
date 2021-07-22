@@ -30,7 +30,7 @@ if ($execute2->num_rows == 0) {
         $execute2 = $konek->query($querylihat);
         while ($data = $execute2->fetch_array(MYSQLI_ASSOC)) {
             echo "<div class=\"group-input\">
-                    <label for=\"$data[namaKriteria]\">$data[namaKriteria]</label>
+                    <label for=\"$data[namaKriteria]\">$data[namaKriteria]/Ton</label>
                     <input type='hidden' value=\"$data[id_datareal]\" name=\"id[]\">
                     <input type=\"number\" class=\"form-custom\"required autocomplete=\"off\" value=\"$data[nilai_real]\" placeholder=\"$data[namaKriteria]\" id=\"$data[namaKriteria]\" name=\"datareal[]\">
                     ";

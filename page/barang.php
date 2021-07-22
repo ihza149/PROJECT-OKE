@@ -26,6 +26,7 @@
             <div class="panel-top">
                 <b class="text-green">Daftar Barang</b>
             </div>
+            <div><?php echo "<i>Data ini diambil dari website badan pusat statistik.</i>" ?></div>
             <div class="panel-middle">
                 <div class="table-responsive">
                     <table>
@@ -33,7 +34,7 @@
                             <tr>
                                 <th>No</th>
                                 <th>Nama</th>
-                                <th>Jumlah</th>
+                                <th>Jumlah/Ton</th>
                                 <th>Aksi</th>
                             </tr>
                         </thead>

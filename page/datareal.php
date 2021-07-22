@@ -31,6 +31,7 @@ require './connect.php';
             <div class="panel-top">
                 <b class="text-green">Daftar Data Real</b>
             </div>
+            <div><?php echo "<i>Data ini diambil dari dataset yang diambil dari jurnal politeknik negeri jember.</i>" ?></div>
             <div class="panel-middle">
                 <div class="table-responsive">
                     <table>

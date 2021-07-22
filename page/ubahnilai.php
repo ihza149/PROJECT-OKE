@@ -42,7 +42,7 @@ while ($data = $getnilaiKriteria->fetch_array(MYSQLI_ASSOC)) {
         if ($execute->num_rows > 0) {
             while ($data = $execute->fetch_array(MYSQLI_ASSOC)) {
                 echo "<div class=\"group-input\">";
-                echo "<label for=\"nilai\">$data[namaKriteria]</label>";
+                echo "<label for=\"nilai\">$data[namaKriteria]/Ton</label>";
                 echo "<input type='hidden' value=\"$data[id_nilaisupplier]\" name=\"id[]\">";
                 echo "<select class=\"form-custom\" required name=\"nilai[]\" id=\"nilai\">";
                 $query2 = "SELECT id_nilaikriteria,keterangan FROM nilai_kriteria WHERE id_kriteria='$data[id_kriteria]'";

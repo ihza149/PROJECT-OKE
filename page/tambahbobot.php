@@ -28,7 +28,7 @@
         if ($execute->num_rows > 0) {
             while ($data = $execute->fetch_array(MYSQLI_ASSOC)) {
                 echo "<div class=\"group-input\">
-                        <label for=\"$data[namaKriteria]\">$data[namaKriteria]</label>
+                        <label for=\"$data[namaKriteria]\">$data[namaKriteria]/Ton</label>
                         <input type='hidden' value=$data[id_kriteria] name='kriteria[]'>
                             <input class=\"form-custom\" type=\"text\" autocomplete=\"off\" required name=\"bobot[]\" id=\"$data[namaKriteria]\" placeholder=\"Nilai $data[namaKriteria]\">
                       </div>
