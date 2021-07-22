@@ -95,6 +95,6 @@ class saw
     {
         $queryHasil     =   "SELECT hasil.hasil AS hasil,jenis_barang.namaBarang,supplier.namaSupplier AS namaSupplier FROM hasil JOIN jenis_barang ON jenis_barang.id_jenisbarang=hasil.id_jenisbarang JOIN supplier ON supplier.id_supplier=hasil.id_supplier WHERE hasil.hasil=(SELECT MIN(hasil) FROM hasil WHERE id_jenisbarang='$this->idCookie')";
         $execute        =   $this->getConnect()->query($queryHasil)->fetch_array(MYSQLI_ASSOC);
-        echo "<p>Jadi rekomendasi pemilihan kecamatan <i>$execute[namaBarang]</i> jatuh pada <i>$execute[namaSupplier]</i> dengan Nilai <b>" . round($execute['hasil'], 3) . "</b></p>";
+        echo "<p>Jadi rekomendasi pemilihan kecamatan untuk rawan pangan dengan jenis bahan pangan <i>$execute[namaBarang]</i>, jatuh pada kecamatan<i>$execute[namaSupplier]</i> dengan Nilai <b>" . round($execute['hasil'], 3) . "</b></p>";
     }
 }
