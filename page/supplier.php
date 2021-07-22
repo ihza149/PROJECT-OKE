@@ -25,6 +25,7 @@
             <div class="panel-top">
                 <b class="text-green">Daftar Kecamatan</b>
             </div>
+            <div><?php echo "<i>Data ini diambil dari website badan pusat statistik.</i>" ?></div>
             <div class="panel-middle">
                 <div class="table-responsive">
                     <table>
